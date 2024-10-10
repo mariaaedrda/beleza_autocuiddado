@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beleza e Autocuidado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Beleza e Autocuidado</h1>
+        <nav>
+            <ul>
+                <li><a href="#beleza">Dicas de Beleza</a></li>
+                <li><a href="#autocuidado">Autocuidado</a></li>
+                <li><a href="#jogo">Jogo de Beleza</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beleza">
+        <h2>Dicas de Beleza</h2>
+        <p>Aqui você encontrará dicas incríveis para manter sua pele saudável e radiante, cuidados com o cabelo e muito mais!</p>
+        <ul>
+            <li>Use protetor solar diariamente.</li>
+            <li>Beba muita água para manter a pele hidratada.</li>
+            <li>Mantenha uma rotina de cuidados faciais.</li>
+        </ul>
+    </section>
+
+    <section id="autocuidado">
+        <h2>Importância do Autocuidado</h2>
+        <p>Autocuidado não é apenas sobre aparência, mas também sobre saúde mental e física. Tire um tempo para cuidar de você!</p>
+        <ul>
+            <li>Faça exercícios regularmente.</li>
+            <li>Tire momentos para relaxar e meditar.</li>
+            <li>Alimente-se de forma saudável e equilibrada.</li>
+        </ul>
+    </section>
+
+    <section id="jogo">
+        <h2>Jogo de Beleza</h2>
+        <p>Vamos ver como você se sai nesse jogo de adivinhar produtos de beleza!</p>
+        <div id="game">
+            <p id="question"></p>
+            <button onclick="answer(true)">Sim</button>
+            <button onclick="answer(false)">Não</button>
+        </div>
+        <p id="result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
